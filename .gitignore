@@ -82,6 +82,7 @@ ssl
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
+.yarn
 
 ############################
 # Node.js
@@ -112,3 +113,4 @@ exports
 *.cache
 build
 .strapi-updater.json
+
