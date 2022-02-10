@@ -1,5 +1,7 @@
+export { default as Notification } from '../../components/Notification.vue'
 export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as Tutorial } from '../../components/Tutorial.vue'
+export { default as Navbar } from '../../components/navbar.vue'
+export { default as IconsCart } from '../../components/icons/cart.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

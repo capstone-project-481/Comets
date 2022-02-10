@@ -4484,6 +4484,7 @@ __metadata:
     "@strapi/plugin-users-permissions": 4.0.5
     "@strapi/strapi": 4.0.5
     sqlite3: 5.0.2
+    strapi-provider-email-console: ^0.0.1
   languageName: unknown
   linkType: soft
 
@@ -12414,6 +12415,13 @@ __metadata:
   dependencies:
     ci-info: ^3.1.1
   checksum: 049be0d6fb7ff544b3061a53ccaddd3ab2f6930f50b432f54dc82b22cb813c6e408ed69807c7c6bc592fccfc92d5c431dcc1aacd7c9ca99d304948f3149a08da
+  languageName: node
+  linkType: hard
+
+"strapi-provider-email-console@npm:^0.0.1":
+  version: 0.0.1
+  resolution: "strapi-provider-email-console@npm:0.0.1"
+  checksum: 46e23b637efb0e7df241acb4f00feb6a1a331b159b4323de79a5e228d517934ff9766ff303c2f40173432f5ca5f4603882ecd78511c26d8f33ef9366869d7f00
   languageName: node
   linkType: hard
 
