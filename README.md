@@ -1,102 +1,29 @@
-﻿# Comets.js
-While there are many eCommerce solutions available for use today, many are either expensive (in money or time) and aren't geared towards customers who aren't tech savvy. Comets.js, is a free and open source eCommerce platform that allows business owners to create an online store to fit their needs. Comets.js does all of the heavy lifting for you.
+# Nuxt 3 Minimal Starter
 
-## Development Information (To be Removed)
+We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
-  
+## Setup
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
+Make sure to install the dependencies
 
+```bash
+yarn install
 ```
 
-npm run develop
+## Development
 
-# or
+Start the development server on http://localhost:3000
 
-yarn develop
-
+```bash
+yarn dev
 ```
 
-  
+## Production
 
-### `start`
+Build the application for production:
 
-  
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-  
-
-```
-
-npm run start
-
-# or
-
-yarn start
-
-```
-
-  
-
-### `build`
-
-  
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-  
-
-```
-
-npm run build
-
-# or
-
+```bash
 yarn build
-
 ```
 
-  
-
-## ⚙️ Deployment
-
-  
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-  
-
-## 📚 Learn more
-
-  
-
--  [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-
--  [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-
--  [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-
--  [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-
--  [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-  
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-  
-
-## ✨ Community
-
-  
-
--  [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-
--  [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-
--  [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
-  
-
----
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
