@@ -39,7 +39,17 @@
                            type="password"
                            class="input"
                            name="password"
-                           required
+                           />
+                     </div>
+                  </div>
+                  <div class="field">
+                     <label class="label">Confirm Password</label>
+                     <div class="control">
+                        <input
+                           v-model="password2"
+                           type="password"
+                           class="input"
+                           name="password"
                            />
                      </div>
                   </div>
@@ -81,16 +91,18 @@ export default {
     methods: {
         async register() {
             this.error = null;
+            if(this.password !== this.password2){
+               this.error = "Passwords do not match.";
+               return;
+            }
             try {
                this.$axios.setToken(false);
-               
                //Post the user information to Strapi
                await this.$axios.post("/api/auth/local/register", {
                   username: this.username,
                   email: this.email,
                   password: this.password,
                });
-
                //This doesn't work and it auto confirms the account without confirmation so we can figure out if we want user confirmation or not
                this.success = `A confirmation link has been sent to your email account. Please click on the link to complete the registration process.`;
             }catch (e){
