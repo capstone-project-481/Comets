@@ -47,12 +47,12 @@ export default {
     '@nuxtjs/dotenv'
   ],
   axios: {
-    baseURL: process.env.STORE_URL || "http://localhost:1337"
+    baseURL: process.env.STORE_URL
   },
 
   //This is the environment variable Snipcart left out in the tutorial this is where Strapi is located
   env: {
-    storeUrl: process.env.STORE_URL ||"http://localhost:1337" 
+    storeUrl: process.env.STORE_URL 
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

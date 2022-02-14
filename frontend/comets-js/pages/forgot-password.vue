@@ -52,7 +52,8 @@ export default {
                 this.error = null;
                 this.success = `A reset password link has been sent to your email account. Please click on the link to complete the password reset.`;
             } catch (e){
-                this.error = e.response.data;
+                //I set the error message to be the same as success message to slow down an attacker
+                this.error = `A reset password link has been sent to your email account. Please click on the link to complete the password reset.`;
             }
         },
     },

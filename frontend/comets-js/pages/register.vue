@@ -46,7 +46,7 @@
                      <label class="label">Confirm Password</label>
                      <div class="control">
                         <input
-                           v-model="password2"
+                           v-model="passwordConfirm"
                            type="password"
                            class="input"
                            name="password"
@@ -81,6 +81,7 @@ export default {
             username: "",
             email: "",
             password: "",
+            passwordConfirm: "",
             success: null,
             error: null,
         };
@@ -91,7 +92,7 @@ export default {
     methods: {
         async register() {
             this.error = null;
-            if(this.password !== this.password2){
+            if(this.password !== this.passwordConfirm){
                this.error = "Passwords do not match.";
                return;
             }
@@ -106,7 +107,7 @@ export default {
                //This doesn't work and it auto confirms the account without confirmation so we can figure out if we want user confirmation or not
                this.success = `A confirmation link has been sent to your email account. Please click on the link to complete the registration process.`;
             }catch (e){
-               this.error = e.response.data;
+               this.error = "This username or email may already be in use, please try a different username. If this email is already in use, try resetting your password.";
             }
         },
     },

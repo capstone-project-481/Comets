@@ -79,7 +79,7 @@ export default {
     }
   },
   created: async function () {
-    const res = await fetch('http://localhost:1337/api/products/')
+    const res = await fetch(`${process.env.STORE_URL}/api/products/`)
     this.products = await res.json()
   }
 }

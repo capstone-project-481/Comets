@@ -53,7 +53,7 @@
             
             :data-item-id="product.data.id"
             :data-item-price="product.data.attributes.productPrice"
-            :data-item-url="`${storeUrl}${this.$route.fullPath}`"
+            :data-item-url="`${STORE_URL}${this.$route.fullPath}`"
             :data-item-description="product.data.attributes.productDescription"
             :data-item-image="product.data.attributes.productImageURL"
             :data-item-name="product.data.attributes.productTitle"
@@ -71,13 +71,13 @@ export default {
   data() {
     return {
       product: null,
-      storeUrl: process.env.storeUrl,
+      storeUrl: process.env.STORE_URL,
     };
   },
   
   created: async function () {
     const res = await fetch(
-      `http://localhost:1337/api/products/${this.$route.params.id}`
+      `${process.env.STORE_URL}/api/products/${this.$route.params.id}`
     );
     this.product = await res.json();
   },

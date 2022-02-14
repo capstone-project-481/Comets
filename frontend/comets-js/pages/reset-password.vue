@@ -79,7 +79,7 @@ export default {
                 });
                 this.success = "Password updated successfully. You can now use it to log in to your account.";
             } catch (e) {
-                this.error = e.response.data;
+                this.error = "Something went wrong, please try again.  If you are still having trouble contact the site owner.";
             }
         },
     },
