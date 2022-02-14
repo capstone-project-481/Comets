@@ -13,15 +13,15 @@
     >
       <!--For every product in products.data (this is the object array and tells the loop to start here.  We are looping through the data section only and not products like the tutorial had ) -->
       <div
-        v-for="p in products.data"
-        :key="p.id"
+        v-for="product in products.data"
+        :key="product.id"
         class="border rounded-lg bg-gray-100 hover:shadow-lg"
       >
         <!-- Link to the product at p.id this is the first data element in products.data this is how the user gets to an individual product-->
-        <nuxt-link :to="`/products/${p.id}`">
+        <nuxt-link :to="`/products/${product.id}`">
           <div class="rounded-t-lg bg-white pt-2 pb-2">
             <!-- Get the image url from the attributes object-->
-            <img class="crop mx-auto" :src="p.attributes.productImageURL" />
+            <img class="crop mx-auto" :src="product.attributes.productImageURL" />
           </div>
           <div class="pl-4 pr-4 pb-4 pt-4 rounded-lg">
             <h4
@@ -35,11 +35,14 @@
               "
             >
               <!-- Get the title from the attributes object-->
-              {{ p.attributes.productTitle }}
+              {{ product.attributes.productTitle }}
             </h4>
 
             <!-- Get the description from the attributes object-->
-            <div class="mt-1 text-sm text-gray-700">{{ p.attributes.productDescription }}</div>
+            <div class="mt-1 text-sm text-gray-700">{{ product.attributes.productDescription }}</div>
+            <div class="mt-1 text-sm text-gray-700">
+              ${{ product.attributes.productPrice }}
+            </div>
           </div>
         </nuxt-link>
       </div>

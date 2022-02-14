@@ -21,6 +21,9 @@
               {{ product.data.attributes.productTitle }}
             </h4>
             <div class="mt-1 text-gray-600">{{ product.data.attributes.productDescription }}</div>
+            <div class="mt-1 text-sm text-gray-700">
+              ${{ product.data.attributes.productPrice }}
+            </div>
           </div>
 
           <!--Snipcart-add-item adds the current item to the cart
