@@ -2,50 +2,43 @@
   {
     "name": "forgot-password",
     "path": "/forgot-password",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/forgot-password.vue",
-    "chunkName": "pages/forgot-password",
-    "_name": "_0526a816"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\forgot-password.vue",
+    "chunkName": "pages/forgot-password"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/login.vue",
-    "chunkName": "pages/login",
-    "_name": "_19e4f28c"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
   },
   {
     "name": "profile",
     "path": "/profile",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/profile.vue",
-    "chunkName": "pages/profile",
-    "_name": "_60f396ba"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/register.vue",
-    "chunkName": "pages/register",
-    "_name": "_11625fe2"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
   },
   {
     "name": "reset-password",
     "path": "/reset-password",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/reset-password.vue",
-    "chunkName": "pages/reset-password",
-    "_name": "_3f609658"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\reset-password.vue",
+    "chunkName": "pages/reset-password"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/products/_id/index.vue",
-    "chunkName": "pages/products/_id/index",
-    "_name": "_49fd5251"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\products\\\\_id\\\\index.vue",
+    "chunkName": "pages/products/_id/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "/home/maslin/Documents/GitHub/Comets/frontend/comets-js/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2965e3a3"
+    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

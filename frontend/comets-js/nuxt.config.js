@@ -58,6 +58,11 @@ export default {
   build: {
   },
   
+//dist
+  generate: {
+    dir: 'dist'
+  },
+  
   //This handles authentication between Nuxt and Strapi
   auth:{
     strategies:{
