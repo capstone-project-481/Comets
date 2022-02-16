@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"storeUrl":"http://localhost:1337","STORE_URL":"http://localhost:1337"}
+      env: {}
     }
     // Only set once
 

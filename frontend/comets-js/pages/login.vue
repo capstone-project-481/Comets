@@ -33,7 +33,7 @@
                   <div class="control">
                      <button type="submit" class="bg-blue-400 py-1 w-full rounded-sm font-medium">
                      Login
-                     </button>]
+                     </button>
                   </div>
                </form>
                <div style="margin-top: 20px">
