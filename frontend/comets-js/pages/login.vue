@@ -1,46 +1,48 @@
 <template>
-   <section class="section">
-      <div class="container">
+   <section class="section flex justify-center items-center">
+      <div class="bg-gray-100 shadow-2xl p-6 rounded">
          <div class="columns">
             <div class="column is-4 is-offset-4">
-               <h2 class="title has-text-centered">Log In</h2>
+               <h2 class="text-center text-2xl mb-4">Welcome back!</h2>
                <Notification v-if="error" type="danger" :message="error" />
                <form method="post" @submit.prevent="login">
-                  <div class="field">
+                  <div class="field mb-2">
                      <label class="label">Email</label>
                      <div class="control">
                         <input
                            v-model="email"
                            type="email"
-                           class="input"
+                           class="input w-full rounded-sm pl-1"
                            name="email"
+                           placeholder="user@comets.js"
                            />
                      </div>
                   </div>
-                  <div class="field">
+                  <div class="field mb-6">
                      <label class="label">Password</label>
                      <div class="control">
                         <input
                            v-model="password"
                            type="password"
-                           class="input"
+                           class="input w-full rounded-sm pl-1"
                            name="password"
+                           placeholder="password"
                            />
                      </div>
                   </div>
                   <div class="control">
-                     <button type="submit" class="button is-dark">
-                     Log In
-                     </button>
+                     <button type="submit" class="bg-blue-400 py-1 w-full rounded-sm font-medium">
+                     Login
+                     </button>]
                   </div>
                </form>
                <div style="margin-top: 20px">
-                  <p>
+                  <p class="font-medium">
                      Don't have an account?
-                     <nuxt-link to="/register">Register</nuxt-link>
+                     <nuxt-link to="/register" class="text-blue-600">Register</nuxt-link>
                   </p>
-                  <p>
-                     <nuxt-link to="/forgot-password">Forgot Password?</nuxt-link>
+                  <p class="font-medium">
+                     <nuxt-link to="/forgot-password" class="text-blue-600">Forgot Password?</nuxt-link>
                   </p>
                </div>
             </div>
@@ -78,7 +80,7 @@ export default {
                });
                this.$router.push("/");
             } catch(e){
-               this.error = "Wrong Email, Wrong Password, or your account may not be confirmed yet.  If you have not confirmed your account please check your email. If you have confirmed your account, please try again."
+               this.error = e.response.data
             }
         },
     },
