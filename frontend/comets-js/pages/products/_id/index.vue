@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center border rounded-lg bg-gray-100">
         <div class="w-full bg-white rounded-lg flex justify-center">
 
-          <img :src="product.data.attributes.productImageURL" width="375" />
+          <img :src="product.data.attributes.imageURL" width="375" />
         </div>
         <div class="w-full p-5 flex flex-col justify-between">
           <div>
@@ -18,18 +18,15 @@
                 text-gray-700
               "
             >
-              {{ product.data.attributes.productTitle }}
+              {{ product.data.attributes.title }}
             </h4>
-            <div class="mt-1 text-gray-600">{{ product.data.attributes.productDescription }}</div>
-            <div class="mt-1 text-sm text-gray-700">
-              ${{ product.data.attributes.productPrice }}
-            </div>
+            <div class="mt-1 text-gray-600">{{ product.data.attributes.description }}</div>
           </div>
 
           <!--Snipcart-add-item adds the current item to the cart
             :data-item-id="product.data.id"  Gets the item id from Strapi JSON Array
             :data-item-price="product.data.attributes.price" Gets the price from Strapi JSON Array
-            :data-item-url="`${storeUrl}${this.$route.fullPath}`"  Gets the full url to the item storeUrl is an environment variable in nuxt.config.js (thanks Snipcart for leaving that one out gg)
+            :data-item-url="`${STORE_URL}${this.$route.fullPath}`"  Gets the full url to the item STORE_URL is an environment variable in nuxt.config.js (thanks Snipcart for leaving that one out gg)
             :data-item-description="product.data.attributes.description"  Gets the item description from JSON array
             :data-item-image="product.data.attributes.imageURL"  Gets the item's image url from Strapi
             :data-item-name="product.data.attributes.title"  Gets the item's title from Strapi
@@ -52,11 +49,11 @@
             "
             
             :data-item-id="product.data.id"
-            :data-item-price="product.data.attributes.productPrice"
-            :data-item-url="`${STORE_URL}${this.$route.fullPath}`"
-            :data-item-description="product.data.attributes.productDescription"
-            :data-item-image="product.data.attributes.productImageURL"
-            :data-item-name="product.data.attributes.productTitle"
+            :data-item-price="product.data.attributes.price"
+            :data-item-url="`https://snip-json.vercel.app${this.$route.fullPath}`"
+            :data-item-description="product.data.attributes.description"
+            :data-item-image="product.data.attributes.imageURL"
+            :data-item-name="product.data.attributes.title"
           >
             Add to cart
           </button>
@@ -71,15 +68,16 @@ export default {
   data() {
     return {
       product: null,
-      storeUrl: process.env.STORE_URL,
+      STORE_URL: process.env.storeUrl,
     };
   },
   
   created: async function () {
     const res = await fetch(
-      `${process.env.STORE_URL}/api/products/${this.$route.params.id}`
-    );
+      `https://comets-strapi.onrender.com/api/products/${this.$route.params.id}`
+    )
     this.product = await res.json();
+
   },
 };
 </script>
