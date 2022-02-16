@@ -4,7 +4,7 @@
             <NavBar />
             <Nuxt class="flex-grow"/>
         </div>
-        <div hidden id="snipcart" data-api-key="ZmNjNDFmYzItNGNmMi00ZmU2LTkzOGMtN2I3MmEyNDExZWY2NjM3NzgzMzA2MTYwMzc1MTc5"></div>
+        <div hidden id="snipcart" data-api-key="Y2UzMzQ2NTUtODBjZS00MzZiLWJiZmEtYmY3MGM2YzJkN2FhNjM3Nzg5NDA5ODczNzQ1NzU0"></div>
     </div>
 </template>
 <script>
