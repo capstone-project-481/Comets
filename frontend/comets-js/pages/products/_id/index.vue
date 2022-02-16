@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center border rounded-lg bg-gray-100">
         <div class="w-full bg-white rounded-lg flex justify-center">
 
-          <img :src="product.data.attributes.imageURL" width="375" />
+          <img :src="product.data.attributes.productImageURL" width="375" />
         </div>
         <div class="w-full p-5 flex flex-col justify-between">
           <div>
@@ -20,7 +20,7 @@
             >
               {{ product.data.attributes.title }}
             </h4>
-            <div class="mt-1 text-gray-600">{{ product.data.attributes.description }}</div>
+            <div class="mt-1 text-gray-600">{{ product.data.attributes.productDescription }}</div>
           </div>
 
           <!--Snipcart-add-item adds the current item to the cart
@@ -49,11 +49,11 @@
             "
             
             :data-item-id="product.data.id"
-            :data-item-price="product.data.attributes.price"
+            :data-item-price="product.data.attributes.productPrice"
             :data-item-url="`https://snip-json.vercel.app${this.$route.fullPath}`"
-            :data-item-description="product.data.attributes.description"
-            :data-item-image="product.data.attributes.imageURL"
-            :data-item-name="product.data.attributes.title"
+            :data-item-description="product.data.attributes.productDescription"
+            :data-item-image="product.data.attributes.productImageURL"
+            :data-item-name="product.data.attributes.productTitle"
           >
             Add to cart
           </button>
@@ -77,7 +77,6 @@ export default {
       `https://comets-strapi.onrender.com/api/products/${this.$route.params.id}`
     )
     this.product = await res.json();
-
   },
 };
 </script>
