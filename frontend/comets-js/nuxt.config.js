@@ -1,6 +1,13 @@
 require("dotenv").config();
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  targert: "static",
+  ssr: false,
+  generate: {
+    fallback: true
+  },
+
+
   head: {
     title: 'comets-js',
     htmlAttrs: {
@@ -57,11 +64,7 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  
-//dist
-  generate: {
-    dir: 'dist'
-  },
+
   
   //This handles authentication between Nuxt and Strapi
   auth:{

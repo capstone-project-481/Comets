@@ -13,9 +13,9 @@ import { createStore } from './store.js'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_75b5c44e from 'nuxt_plugin_plugin_75b5c44e' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_axios_27a6bd71 from 'nuxt_plugin_axios_27a6bd71' // Source: .\\axios.js (mode: 'all')
-import nuxt_plugin_plugin_53b51460 from 'nuxt_plugin_plugin_53b51460' // Source: .\\auth\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_1d7b07e4 from 'nuxt_plugin_plugin_1d7b07e4' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_44b91531 from 'nuxt_plugin_axios_44b91531' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_73d2c7c0 from 'nuxt_plugin_plugin_73d2c7c0' // Source: .\\auth\\plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -55,7 +55,7 @@ Object.defineProperty(Vue.prototype, '$nuxt', {
 
 Vue.use(Meta, {"keyName":"head","attribute":"data-n-head","ssrAttribute":"data-n-head-ssr","tagIDKeyName":"hid"})
 
-const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
+const defaultTransition = {"name":"page","mode":"out-in","appear":true,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 const originalRegisterModule = Vuex.Store.prototype.registerModule
 
@@ -74,9 +74,6 @@ async function createApp(ssrContext, config = {}) {
   const store = createStore(ssrContext)
   // Add this.$router into store actions/mutations
   store.$router = router
-
-  // Fix SSR caveat https://github.com/nuxt/nuxt.js/issues/3757#issuecomment-414689141
-  store.registerModule = registerModule
 
   // Create Root instance
 
@@ -212,16 +209,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_75b5c44e === 'function') {
-    await nuxt_plugin_plugin_75b5c44e(app.context, inject)
+  if (typeof nuxt_plugin_plugin_1d7b07e4 === 'function') {
+    await nuxt_plugin_plugin_1d7b07e4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_27a6bd71 === 'function') {
-    await nuxt_plugin_axios_27a6bd71(app.context, inject)
+  if (typeof nuxt_plugin_axios_44b91531 === 'function') {
+    await nuxt_plugin_axios_44b91531(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_53b51460 === 'function') {
-    await nuxt_plugin_plugin_53b51460(app.context, inject)
+  if (typeof nuxt_plugin_plugin_73d2c7c0 === 'function') {
+    await nuxt_plugin_plugin_73d2c7c0(app.context, inject)
   }
 
   // Lock enablePreview in context

@@ -2,43 +2,50 @@
   {
     "name": "forgot-password",
     "path": "/forgot-password",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\forgot-password.vue",
-    "chunkName": "pages/forgot-password"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\forgot-password.vue",
+    "chunkName": "pages/forgot-password",
+    "_name": "_abbbb998"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_5bb4af58"
   },
   {
     "name": "profile",
     "path": "/profile",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\profile.vue",
-    "chunkName": "pages/profile"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_3c730fd8"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_b45beaf8"
   },
   {
     "name": "reset-password",
     "path": "/reset-password",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\reset-password.vue",
-    "chunkName": "pages/reset-password"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\reset-password.vue",
+    "chunkName": "pages/reset-password",
+    "_name": "_3ccb810c"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\products\\\\_id\\\\index.vue",
-    "chunkName": "pages/products/_id/index"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\products\\\\_id\\\\index.vue",
+    "chunkName": "pages/products/_id/index",
+    "_name": "_292edf1d"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\bram0\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\bram0\\\\desktop\\\\comets\\\\frontend\\\\comets-js\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_dbe5e77e"
   }
 ]
