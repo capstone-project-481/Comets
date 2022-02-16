@@ -47,7 +47,7 @@ export default {
     '@nuxtjs/dotenv'
   ],
   axios: {
-    baseURL: process.env.STORE_URL
+    baseURL: "https://comets-strapi.onrender.com"
   },
 
   //This is the environment variable Snipcart left out in the tutorial this is where Strapi is located
