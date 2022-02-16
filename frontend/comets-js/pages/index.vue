@@ -79,7 +79,7 @@ export default {
     }
   },
   created: async function () {
-    const res = await fetch(`${process.env.STORE_URL}/api/products/`)
+    const res = await fetch(`https://comets-strapi.onrender.com/api/products/`)
     this.products = await res.json()
   }
 }
