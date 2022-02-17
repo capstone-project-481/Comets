@@ -1,12 +1,12 @@
 {
-  "Navbar": {
-    "description": "Auto imported from components/navbar.vue"
-  },
   "Notification": {
     "description": "Auto imported from components/Notification.vue"
   },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/navbar.vue"
   },
   "IconsCart": {
     "description": "Auto imported from components/icons/cart.vue"

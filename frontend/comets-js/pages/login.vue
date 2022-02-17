@@ -80,7 +80,7 @@ export default {
                });
                this.$router.push("/");
             } catch(e){
-               this.error = e.response.data
+               this.error = "Wrong Email, Wrong Password, or your account may not be confirmed yet.  If you have not confirmed your account please check your email. If you have confirmed your account, please try again."
             }
         },
     },
