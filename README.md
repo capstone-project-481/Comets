@@ -1,102 +1,24 @@
-﻿# Comets.js
+﻿
+# Comets.js
 While there are many eCommerce solutions available for use today, many are either expensive (in money or time) and aren't geared towards customers who aren't tech savvy. Comets.js, is a free and open source eCommerce platform that allows business owners to create an online store to fit their needs. Comets.js does all of the heavy lifting for you.
+## Getting Started
+A demo of Comets.js is available at: https://comets-ten.vercel.app/
+-	If no products have loaded visit this website to start the backend server https://comets-strapi.onrender.com/ then refresh the Comets.js page.
+## Technologies used
 
-## Development Information (To be Removed)
+ - Strapi
+	 - Used for easy creation and management of products and users.
+ - Snipcart
+	 - Used for processing transactions, payment methods and orders.
+ - Nuxt.js
+	 - Used for the user interface of the eCommerce site.  Allows for server side rendering, ensuring a smooth and reliable shopping experience for your customers.
+## Created by Central Washington University Students
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
 
-  
+<table><tr><td align="center"><a href="https://github.com/maslindc2"><img src="https://avatars.githubusercontent.com/u/16846509?s=400&u=91eb0820aec2370a2071ecf6e9cecc62bae254b3&v=4" width="100px;" alt="Maslin Farrell"/><br/><sub><b>Maslin Farrell</b></sub></a><br /></td></td><td align="center"><a href="https://github.com/EvanNordin"><img src="https://avatars.githubusercontent.com/u/47131883?v=4" width="100px;" alt="Evan Nordin"/><br/><sub><b>Evan Nordin</b></sub></a><br/></td><td align="center"><a href="https://github.com/Rodriguezlui002"><img src="https://avatars.githubusercontent.com/u/58277521?v=4" width="100px;" alt="Luis Rodriguez"/><br/><sub><b>Luis Rodriguez</b></sub></a><br/></td><td align="center"><a href="https://github.com/Changbra"><img src="https://avatars.githubusercontent.com/u/56209371?v=4" width="100px;" alt="Brandon Chang"/><br/><sub><b>Brandon Chang</b></sub></a><br/></td><td align="center"><a href="https://github.com/Kmcdonnell20"><img src="https://avatars.githubusercontent.com/u/24233233?v=4" width="100px;" alt="Kaleb Mcdonnell"/><br/><sub><b>Kaleb Mcdonnell</b></sub></a><br/></td></td></tr></table>
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
-
-```
-
-npm run develop
-
-# or
-
-yarn develop
-
-```
-
-  
-
-### `start`
-
-  
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-start)
-
-  
-
-```
-
-npm run start
-
-# or
-
-yarn start
-
-```
-
-  
-
-### `build`
-
-  
-
-Build your admin panel. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-build)
-
-  
-
-```
-
-npm run build
-
-# or
-
-yarn build
-
-```
-
-  
-
-## ⚙️ Deployment
-
-  
-
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
-
-  
-
-## 📚 Learn more
-
-  
-
--  [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-
--  [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-
--  [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-
--  [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-
--  [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-  
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-  
-
-## ✨ Community
-
-  
-
--  [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-
--  [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-
--  [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
+<!-- ALL-CONTRIBUTORS-LIST:END -->
   
 
 ---
