@@ -23,11 +23,16 @@
 
         <!-- secondaryNav -->
         <!-- If the user is Authenticated show the username, my profile link and logout button-->
-        <div v-if="isAuthenticated">
+        <div v-if="isAuthenticated" class="flex items-center space-x-3">
           <a>{{ loggedInUser.username }}</a>
           <nuxt-link to="/profile" class="hover:text-gray-500">My Profile</nuxt-link>
           <!--Run logout method if clicked-->
           <a @click="logout" class="py-1 px-3 bg-yellow-400 text-yellow-900 rounded hover:text-yellow-200">Logout</a>
+          <!--Snip cart button to display Snip Cart pane-->
+          <button class="snipcart-checkout flex items-center">
+            <Cart />
+            <span class="snipcart-total-price ml-3 font-semibold text-sm text-pink"></span>
+          </button>
         </div>
         <!-- If the user is not authenticated then show buttons to register and login-->
         <div v-else class="flex items-center space-x-3">
