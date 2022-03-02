@@ -25,9 +25,9 @@
         <!-- If the user is Authenticated show the username, my profile link and logout button-->
         <div v-if="isAuthenticated">
           <a>{{ loggedInUser.username }}</a>
-          <nuxt-link to="/profile">My Profile</nuxt-link>
+          <nuxt-link to="/profile" class="hover:text-gray-500">My Profile</nuxt-link>
           <!--Run logout method if clicked-->
-          <a @click="logout">Logout</a>
+          <a @click="logout" class="py-1 px-3 bg-yellow-400 text-yellow-900 rounded hover:text-yellow-200">Logout</a>
         </div>
         <!-- If the user is not authenticated then show buttons to register and login-->
         <div v-else class="flex items-center space-x-3">
