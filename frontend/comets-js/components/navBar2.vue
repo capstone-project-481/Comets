@@ -35,6 +35,7 @@
         </div>
         <!-- If the user is not authenticated then show buttons to register and login-->
         <div v-else class="flex items-center space-x-3">
+          <button class="snipcart-customer-signin py-1 px-3 rounded hover:text-yellow-200">Login/Register</button>
           <nuxt-link to="/login" class="hover:text-gray-500">Login</nuxt-link>
           <nuxt-link to="/register" class="py-1 px-3 bg-yellow-400 text-yellow-900 rounded hover:text-yellow-200">Register</nuxt-link>
 
