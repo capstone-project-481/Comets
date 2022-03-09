@@ -23,7 +23,7 @@
 
         <!-- secondaryNav -->
         <div class="flex items-center space-x-3">
-          <button class="snipcart-customer-signin py-1 px-3 rounded hover:text-yellow-200">My Account</button>
+          <button class="snipcart-customer-signin py-1 px-3 rounded hover:text-gray-900">My Account</button>
           <!--Snip cart button to display Snip Cart pane-->
           <button class="snipcart-checkout flex items-center">
             <Cart />
