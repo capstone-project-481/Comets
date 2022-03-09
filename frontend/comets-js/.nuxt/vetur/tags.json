@@ -2,6 +2,9 @@
   "Navbar": {
     "description": "Auto imported from components/navbar.vue"
   },
+  "NavBar2": {
+    "description": "Auto imported from components/navBar2.vue"
+  },
   "Notification": {
     "description": "Auto imported from components/Notification.vue"
   },

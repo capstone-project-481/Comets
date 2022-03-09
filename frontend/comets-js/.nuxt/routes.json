@@ -2,43 +2,50 @@
   {
     "name": "forgot-password",
     "path": "/forgot-password",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\forgot-password.vue",
-    "chunkName": "pages/forgot-password"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\forgot-password.vue",
+    "chunkName": "pages/forgot-password",
+    "_name": "_30cc9458"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_0135ec10"
   },
   {
     "name": "profile",
     "path": "/profile",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\profile.vue",
-    "chunkName": "pages/profile"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_95117b10"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_4d542be4"
   },
   {
     "name": "reset-password",
     "path": "/reset-password",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\reset-password.vue",
-    "chunkName": "pages/reset-password"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\reset-password.vue",
+    "chunkName": "pages/reset-password",
+    "_name": "_38d44e4c"
   },
   {
     "name": "products-id",
     "path": "/products/:id",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\products\\\\_id\\\\index.vue",
-    "chunkName": "pages/products/_id/index"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\products\\\\_id\\\\index.vue",
+    "chunkName": "pages/products/_id/index",
+    "_name": "_1aac1f06"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\rodri\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\Evan\\\\Desktop\\\\Comets\\\\frontend\\\\comets-js\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_35bd66e1"
   }
 ]
